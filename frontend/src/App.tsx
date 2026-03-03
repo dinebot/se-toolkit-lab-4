@@ -8,6 +8,7 @@ interface Item {
   type: string
   title: string
   created_at: string
+  description: string 
 }
 
 function App() {
@@ -94,6 +95,7 @@ function App() {
               <th>Type</th>
               <th>Title</th>
               <th>Created at</th>
+              <th>Description</th>
             </tr>
           </thead>
           <tbody>
